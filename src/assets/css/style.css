@@ -1,0 +1,87 @@
+#app-body {
+    font: normal normal bold Basis Grotesque Pro;
+}
+
+.signup-row {
+    height: 100vh;
+}
+
+.col-1-auth {
+    background: url('../img/bg1.png');
+    background-size: cover;
+}
+
+.col-2 {
+    background: url('../img/bg2.png');
+    background-size: cover;
+}
+
+.col-1-div {
+    width: 46%;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 5%;
+}
+
+.col-2-div {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    background: #fff;
+    border-radius: 10px
+}
+
+.col-2-div-login {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 18%;
+    background: #fff;
+    border-radius: 10px
+}
+
+.btn-submit {
+    background: transparent linear-gradient(90deg, #432B7B 0%, #6A4BBC 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+}
+
+.parent-div {
+    width: 84%;
+    margin-left: 14%;
+}
+
+.header {
+    background: url('../img/yellow-header.png');
+    background-size: cover;
+    margin-top: -40px;
+    /* height: 20vh; */
+}
+
+.header-1 {
+    background: url('../img/yellow-header.png');
+    background-size: cover;
+}
+
+.sec-text {
+    color: #562121;
+}
+
+.price-sub {
+    background: lightgrey;
+    border-radius: 50px;
+    width: 40%;
+    font-size: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+    .parent-div {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .auth-design {
+        display: none;
+    }
+}
